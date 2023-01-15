@@ -1563,3 +1563,8 @@ nav#filter li {
 .isotopeWrapper article {
 	margin: 0px;
 }
+html { direction:rtl;} 
+body { direction: rtl} 
+section {direction:rtl;} 
+div {direction:rtl;} 
+ul {direction:rtl;}
