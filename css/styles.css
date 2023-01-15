@@ -1225,7 +1225,6 @@ figure.effect-bubba:hover a {
 }
 .navbar-nav {
 	float: right; 
-	direction:rtl;
 } 
 .navbar-inverse .navbar-nav > li > a {
 color: #fff;
@@ -1241,7 +1240,6 @@ margin: 34px 10px;
 padding-left: 0;
 width: 101%;
 margin-left: -15px;
-direction:rtl;
 }	
 }
 @media (max-width: 768px) {
