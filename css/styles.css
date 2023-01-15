@@ -63,8 +63,8 @@ h6{
 	line-height:30px;
 }
 .listArrow li{
-background: url('../images/links-arrow.png') right 0px top 12px no-repeat;
-padding-right:15px;
+background: url('../images/links-arrow.png') 0px 12px no-repeat;
+padding-left:15px;
 }
 .progress {
 height: 12px;
@@ -84,7 +84,7 @@ display: inline-block;
 font-size: 18px;
 color: #fff;
 background: #ff7e00;
-margin-left: 20px;
+margin-right: 20px;
 width: 220px;
 text-align: center;
 line-height: 41px;
@@ -209,7 +209,7 @@ color: #1E4D02 !important;
 .topHome {
 	position: fixed;
 	bottom: 20px;
-	left: 20px;
+	right: 20px;
 	z-index: 5;
 }
 .topHome:hover{
@@ -224,7 +224,7 @@ color:#F89F9F;
 	margin: 0;
 	padding: 0;
 	list-style: none;
-	float: left;
+	float: right;
 }
 #section-top ul li {
 	display: inline-block;
@@ -238,7 +238,7 @@ color:#F89F9F;
 	text-align: center;
 }
 #section-top .region-top-first {
-	float: left;
+	float: right;
 }
 .header {
 	position: fixed;
@@ -324,7 +324,7 @@ background: rgb(34, 34, 34);
 	font-size: 30px;
 	color: #1C4604;
 	font-weight: bold;
-	text-shadow: #fff -1px 1px 1px;
+	text-shadow: #fff 1px 1px 1px;
 }
 .actionPanel {
 	padding: 25px 0;
@@ -347,7 +347,7 @@ background: rgb(34, 34, 34);
 }
 /*----Nav ----*/
 .header .navbar-brand {
-	float: right;
+	float: left;
 	padding: 22px 15px;
 	line-height: 18px;
 }
@@ -380,17 +380,17 @@ padding: 0px 15px;
 .hero-text2 h2{
 	font-size: 28px;
 	line-height: 36px; 
-	text-align: right
+	text-align: left
 }
 .hero-text2 .btn-apply{
 margin-top: 39px;
-margin-right: 30px;
+margin-left: 30px;
 padding: 15px 46px;
 font-size: 20px;
 color: #000;
 }
 .hero-text2 .btn-apply .fa{
-padding-left: 15px;
+padding-right: 15px;
 color: #000;
 }
 .navbar-inverse .navbar-nav > li > a {
@@ -471,8 +471,8 @@ bottom: 0px;
 	position: absolute;
 	z-index: 3;
 	top: 0px;
-	right: 0px;
 	left: 0px;
+	right: 0px;
 }
 .hero-text h1 {
 color: #fff; 
@@ -491,7 +491,7 @@ text-transform: uppercase;
 	font-size: 1.6em;
 	color: #fff;
 	font-style: normal; 
-	text-shadow: -1px 1px 1px #8F8F8F;
+	text-shadow: 1px 1px 1px #8F8F8F;
 }
 .arrow-link {
 	display: inline-block;
@@ -521,7 +521,7 @@ a.arrow-link:hover {
 	padding: 20px;
 	display: inline-block;
 	margin: 0 auto;
-	clear: right;
+	clear: left;
 	width: auto;
 }
 .hero-img {
@@ -579,7 +579,7 @@ a.arrow-link:hover {
 	background: rgba(255, 255, 255, 0.13);
 	margin: 3px;
 	cursor: pointer;
-	box-shadow: -1px 1px 1px rgba(0,0,0,0.1) inset, -1px 1px 1px rgba(255,255,255,0.1);
+	box-shadow: 1px 1px 1px rgba(0,0,0,0.1) inset, 1px 1px 1px rgba(255,255,255,0.1);
 	border: 2px solid #ff7e00;
 }
 img, video, iframe, embed, object {
@@ -599,12 +599,12 @@ img, video, iframe, embed, object {
 	margin-bottom: 54px;
 }
 #aboutUs .right {
-	padding-right: 32px;
-	float: left;
-}
-#aboutUs .left {
 	padding-left: 32px;
 	float: right;
+}
+#aboutUs .left {
+	padding-right: 32px;
+	float: left;
 }
 #aboutUs h3 {
 	font: 18px/34px;
@@ -616,11 +616,11 @@ img, video, iframe, embed, object {
 	margin-top: 18px;
 }
 #aboutUs .left {
-	padding-left: 32px;
-	float: right;
+	padding-right: 32px;
+	float: left;
 }
 #aboutUs .right {
-	float: left;
+	float: right;
 }
 .row .area1 {
 	width: 65%;
@@ -631,12 +631,12 @@ img, video, iframe, embed, object {
 /* Services
     -------------------------------------------------*/
 .grid .text-content {
-	padding-right: 35%;
+	padding-left: 35%;
 }
 .grid .text-content {
 	display: block;
-	padding-right: 19%;
-	padding-left: 8%;
+	padding-left: 19%;
+	padding-right: 8%;
 }
 .grid .grid-item {
 }
@@ -668,22 +668,22 @@ content: "";
 width: 60px;
 height: 60px;
 background: yellow;
-float: left;
+float: right;
 position: absolute;
 z-index: -1;
 top: -3px;
-left: 12px;
+right: 12px;
 }
 .box-item:after {
 content: "";
 width: 60px;
 height: 60px;
 background: yellow;
-float: left;
+float: right;
 position: absolute;
 z-index: -1;
 bottom: 12px;
-right: 12px; 
+left: 12px; 
 }
 ul.list3 {
 counter-reset: li;
@@ -693,13 +693,13 @@ padding: 0;
 }
 ul.list3 li {
 position: relative;
-padding: 4px 37px 5px 0;
+padding: 4px 0 5px 37px;
 }
 ul.list3 li:after {
 content: counter(li, decimal-leading-zero);
 counter-increment: li;
 position: absolute;
-right: 0px;
+left: 0px;
 top: 50%;
 margin-top: -13px;
 font-weight: 700;
@@ -726,22 +726,22 @@ content: "";
 width: 80px;
 height: 80px;
 background: yellow;
-float: left;
+float: right;
 position: absolute;
 z-index: -1;
 top: -5px;
-left: 2px;
+right: 2px;
 }
 .member-img:after {
 content: "";
 width: 80px;
 height: 80px;
 background: yellow;
-float: left;
+float: right;
 position: absolute;
 z-index: -1;
 bottom: -5px;
-right: 2px;
+left: 2px;
 }
 .team-member .member-img img {
 	max-width: 250px;
@@ -767,8 +767,8 @@ right: 2px;
 .team-socials {
 	position:absolute;
 	bottom:70px;
-	right:0px;
 	left:0px;
+	right:0px;
 }
 .team-socials a {
 	background: white;
@@ -844,7 +844,7 @@ border-bottom: solid #fff 1px;
 }
 #portfolio .items li {
 	position: relative;
-	float: right;
+	float: left;
 	width: 25%;
 	overflow: hidden;
 }
@@ -858,7 +858,7 @@ border-bottom: solid #fff 1px;
 #portfolio .items li a .overlay {
 	position: absolute;
 	top: 0;
-	right: 0;
+	left: 0;
 	width: 100%;
 	height: 100%;
 	background-color: #000;
@@ -874,8 +874,8 @@ border-bottom: solid #fff 1px;
 	position: absolute;
 	height: 50px;
 	top: 50%;
-	right: 0px;
 	left: 0px;
+	right: 0px;
 	margin-top: -25px;
 	line-height: 50px;
 }
@@ -894,7 +894,7 @@ nav#filter {
 }
 nav#filter li {
 	display: inline-block;
-	margin: 0 5px 0 0;
+	margin: 0 0 0 5px;
 }
 nav#filter a {
 	padding: 4px 12px;
@@ -944,7 +944,7 @@ body {
 #navigation {
 	position: fixed;
 	top: 0;
-	left: 0;
+	right: 0;
 	margin: 0;
 	padding: 0;
 	width: 200px;
@@ -979,7 +979,7 @@ body {
 .socialIcons li {
 	list-style: none;
 	display: inline;
-	margin-left: 6px;
+	margin-right: 6px;
 }
 footer { 
 	padding: 45px 0; 
@@ -996,7 +996,7 @@ footer {
 	margin-bottom: 10px;
 }
 .contact ul li i {
-	margin-left: 15px;
+	margin-right: 15px;
 }
 /*Clients*/
 .clients #owl-demo .item {
@@ -1044,7 +1044,7 @@ width: 40px;
 height: 40px;
 display: inline-block;
 padding: 10px;
-margin-left: 10px;
+margin-right: 10px;
 margin-bottom: 10px;
 text-align: center;
 font-size: 18px; 
@@ -1072,7 +1072,7 @@ padding:88px 0 25px;
 /*---------------*/
 figure {
 position: relative;
-float: right;
+float: left;
 overflow: hidden;
 margin: 0px;
 min-width: 100%;
@@ -1086,7 +1086,7 @@ cursor: pointer;
 figure figcaption, figure figcaption > a {
 position: absolute;
 top: 0;
-right: 0;
+left: 0;
 width: 100%;
 height: 100%;
 }
@@ -1115,9 +1115,9 @@ figure.effect-bubba figcaption::before,
 figure.effect-bubba figcaption::after {
 	position: absolute;
 	top: 30px;
-	left: 30px;
-	bottom: 30px;
 	right: 30px;
+	bottom: 30px;
+	left: 30px;
 	content: '';
 	opacity: 0;
 	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
@@ -1132,8 +1132,8 @@ figure.effect-bubba figcaption::before {
 }
 
 figure.effect-bubba figcaption::after {
-	border-left: 1px solid #fff;
 	border-right: 1px solid #fff;
+	border-left: 1px solid #fff;
 	-webkit-transform: scale(1,0);
 	transform: scale(1,0);
 }
@@ -1188,7 +1188,7 @@ figure.effect-bubba:hover a {
 
  .carousel-inner  .active.left,
  .carousel-inner .active.right {
-      right: 0;
+      left: 0;
       opacity: 0;
       z-index: 1;
     }
@@ -1221,10 +1221,10 @@ figure.effect-bubba:hover a {
  
 @media (min-width: 768px) {
 .header .navbar-brand {
-	padding-right: 0;
+	padding-left: 0;
 }
 .navbar-nav {
-	float: left; 
+	float: right; 
 } 
 .navbar-inverse .navbar-nav > li > a {
 color: #fff;
@@ -1237,9 +1237,9 @@ margin: 34px 10px;
 }
 @media (min-width: 768px) and (max-width:880px){
 .header .navbar-brand {
-padding-right: 0;
+padding-left: 0;
 width: 101%;
-margin-right: -15px;
+margin-left: -15px;
 }	
 }
 @media (max-width: 768px) {
@@ -1290,8 +1290,8 @@ margin-top: 36px;
 	display: block;
 	width: 330px;
 	height: 228px;
-	float: right;
-	margin: 0 0 3px 3px;
+	float: left;
+	margin: 0 3px 3px 0;
 	opacity: 1;
 	-webkit-transform: scale(1, 1);
 	-webkit-transition-timing-function: ease-out;
@@ -1351,11 +1351,11 @@ border-radius: 5px;
 margin: 3px 10px;
 }
 	.header .navbar-brand {
-float: right;
+float: left;
 padding: 22px 15px;
 line-height: 18px;
 width: 69%;
-margin-right: -25px;
+margin-left: -25px;
 }
 .page-section { 
 padding: 22px 0 !important;
@@ -1447,8 +1447,8 @@ transform: scale(1) !important;
 	bottom: 2px;
 }
 .grid .text-content {
-	padding-right: 29%;
-	padding-left: 2%;
+	padding-left: 29%;
+	padding-right: 2%;
 }
 .portfolio-item:hover .folio-info {
 	top: 0px;
@@ -1462,7 +1462,7 @@ transform: scale(1) !important;
 }
 nav#filter li {
 	display: inline-block;
-	margin: 0 5px 23px 0;
+	margin: 0 0 23px 5px;
 }
 ;
 }
