@@ -1241,6 +1241,7 @@ margin: 34px 10px;
 padding-left: 0;
 width: 101%;
 margin-left: -15px;
+direction:rtl;
 }	
 }
 @media (max-width: 768px) {
