@@ -13,7 +13,7 @@ body {
 	color: #666666;
 	-webkit-font-smoothing: antialiased;
 	-webkit-text-size-adjust: 100%;
-	background: #fff;
+	background: rgb(0, 0, 0);
 	transition: all 0.3s linear;
 	-webkit-transition: all 0.3s linear;
 	-moz-transition: all 0.3s linear;
@@ -114,11 +114,11 @@ background: transparent;
 }
 .btn:hover {
 	 color:#444 !important;
-	background:#E0C400;
+	background:#ff7e00;
 }
  a:hover {
 	
-	 color:#E0C400 !important;
+	 color:#ff7e00 !important;
  }
 .btn{
 display: inline-block;
@@ -145,7 +145,7 @@ padding: 8px 12px;
 	background: #fff;
 	font-size: inherit;
 	border-radius: 0px !important;
-	border: 1px solid #FEDE00;
+	border: 1px solid #ff7e00;
 	width: 99%;
 }
 .button-outline {
@@ -258,11 +258,11 @@ color:#F89F9F;
 	-webkit-transition: all 0.3s linear;
 	-moz-transition: all 0.3s linear;
 	-o-transition: all 0.3s linear;
-	background:#000;
+	background:rgb(7, 0, 19);
 	top:0px;
 }
 .navbar-inverse {
-	background: transparent;
+	background: blue;
 }
 .navbar-inverse .navbar-toggle {
 	background-color: #ff7e00;
@@ -370,7 +370,7 @@ background: rgb(34, 34, 34);
 }
 .header .navbar {
 	margin: 0;
-background: rgba(0, 0, 0, 0.75);
+background: rgba(7, 0, 19, 0.75);
 border: 0;
 padding: 0px 15px;
 }
@@ -397,7 +397,7 @@ color: #000;
 	color: #fff;
 	font-size: 1.2em;
 	line-height: normal;
-	margin: 17px;
+	margin: 1px;
 	padding: 6px 0px !important;
 	border-radius: 5px;
 	font-family: 'Oswald', sans-serif;
@@ -656,7 +656,7 @@ img, video, iframe, embed, object {
 	top: 36px;
 }
 .box-item{
-background: #EFEFEF;
+background: #03030a;
 }
 .box-item p {
 font-size: 15px;
@@ -667,7 +667,7 @@ padding: 0px 12px 26px !important;
 content: "";
 width: 60px;
 height: 60px;
-background: yellow;
+background: #ff7e00;
 float: right;
 position: absolute;
 z-index: -1;
@@ -678,7 +678,7 @@ right: 12px;
 content: "";
 width: 60px;
 height: 60px;
-background: yellow;
+background: #ff7e00;
 float: right;
 position: absolute;
 z-index: -1;
@@ -707,7 +707,7 @@ border-radius: 100%;
 color: #fff;
 width: 26px;
 height: 26px;
-background-color:#FEDE00;
+background-color:#ff7e00;
 text-align: center;
 line-height: 26px;
 }
@@ -725,7 +725,7 @@ line-height: 26px;
 content: "";
 width: 80px;
 height: 80px;
-background: yellow;
+background: #ff7e00;
 float: right;
 position: absolute;
 z-index: -1;
@@ -736,7 +736,7 @@ right: 2px;
 content: "";
 width: 80px;
 height: 80px;
-background: yellow;
+background: #ff7e00;
 float: right;
 position: absolute;
 z-index: -1;
@@ -1227,7 +1227,7 @@ figure.effect-bubba:hover a {
 	float: right; 
 } 
 .navbar-inverse .navbar-nav > li > a {
-color: #fff;
+color: #dadada;
 font-size: 1.1em;
 padding: 6px 0px !important;
 border-radius: 5px;
