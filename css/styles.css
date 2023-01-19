@@ -215,8 +215,23 @@ color: #1E4D02 !important;
 .topHome:hover{
 color:#F89F9F;	
 	}
-/* Header 
-----------------------------------------------*/
+/* Header --*/
+#head {
+	background: #181015 url( ../images/bg_header.jpg) no-repeat;
+	background-size: cover;
+	min-height: 520px;
+	text-align: center;
+	padding-top: 240px;
+	color: white;
+	font-family: "Open sans", Helvetica, Arial;
+	font-weight: 300;
+}
+#head.secondary {
+	height: 100px;
+	min-height: 100px;
+	padding-top: 200px;
+}
+
 #section-top {
 	background: #4E4E4E;
 }
@@ -252,6 +267,11 @@ color:#F89F9F;
 	-webkit-transition: all 0.3s linear;
 	-moz-transition: all 0.3s linear;
 	-o-transition: all 0.3s linear;
+}
+.secondary {
+	height: 100px;
+	min-height: 100px;
+	padding-top: 200px;
 }
 .addBg { 
 	transition: all 0.3s linear;
@@ -503,6 +523,10 @@ text-transform: uppercase;
 	vertical-align: top;
 	width: 50px; 
 }
+.cource-page-container {
+	padding-top: 180px;
+}
+
 a.arrow-link {
 	color: #fff;
 }
@@ -693,13 +717,14 @@ padding: 0;
 }
 ul.list3 li {
 position: relative;
-padding: 4px 0 5px 37px;
+padding: 4px 35px 10px 5px;
+text-align: right;
 }
 ul.list3 li:after {
 content: counter(li, decimal-leading-zero);
 counter-increment: li;
 position: absolute;
-left: 0px;
+right: 5px;
 top: 50%;
 margin-top: -13px;
 font-weight: 700;
@@ -1563,6 +1588,68 @@ nav#filter li {
 .isotopeWrapper article {
 	margin: 0px;
 }
+.tabs {
+	border-radius: 8px;
+	overflow: hidden;
+	box-shadow: 0 4px 4px -2px #00001a;
+  }
+   
+  .tab {
+	width: 100%;
+	overflow: hidden;
+  }
+  .tab-label {
+	display: -webkit-box;
+	display: flex;
+	-webkit-box-pack: justify;
+			justify-content: space-between;
+	padding: 1em;
+	background: #05000f;
+	font-weight: bold;
+	cursor: pointer;
+	-webkit-text-fill-color: #ff7e00;
+	/* Icon */
+  }
+  /* .tab-label.text-content:hover {
+	background: #05000f;
+  } */
+  .tab-label::after {
+	content: "\276F";
+	width: 1em;
+	height: 1em;
+	text-align: center;
+	-webkit-transition: all .35s;
+	transition: all .35s;
+  }
+  .tab-content {
+	max-height: 0;
+	padding: 0 1em;
+	color: #05000f;
+	background: white;
+	-webkit-transition: all .35s;
+	transition: all .35s;
+  }
+  /* input:checked + .tab-label {
+	background: #03000e;
+  } */
+  input:checked + .tab-label::after {
+	-webkit-transform: rotate(90deg);
+			transform: rotate(90deg);
+  }
+  input:checked ~ .tab-content {
+	max-height: 100vh;
+	padding: 1em;
+  }
+  input {
+	position: absolute;
+	opacity: 0;
+	z-index: -1;
+  }
+  .column {
+	float: right;
+	width: 100%;
+  }
+
 html { direction:rtl;} 
 body { direction: rtl} 
 section {direction:rtl;} 
